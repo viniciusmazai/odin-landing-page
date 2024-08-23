@@ -1,23 +1,26 @@
 # Odin Landing Page
 
-This is my second project for [The Odin Project](https://www.theodinproject.com/), and I'm currently working on building a landing page completely from scratch. I'm using everything I've learned so far in the course, from basic HTML and CSS to responsive design concepts.
+This is my completed landing page project for [The Odin Project](https://www.theodinproject.com/). The goal was to build a landing page from scratch, applying all the HTML and CSS concepts I've learned so far.
 
-## What I'm Doing
+## Project Overview
 
-I'm in the process of creating a landing page with plain HTML and CSS. My goal is to design a clean and simple page that works well on desktop. I'm not using any frameworks—just writing the code myself to really understand how everything works.
+I successfully built a responsive landing page with a clean and simple design. I focused on structuring the HTML in a semantic way and using CSS to ensure the layout works well on all devices. The design is minimal but functional, highlighting key sections like the header, main content, informational blocks, testimonials, and a call to action.
 
-## Why I'm Building This
+## Key Features
 
-This project is helping me practice and reinforce the fundamentals of web development. It's been a great way to challenge myself and put into action the skills I’ve gained up until now. Each step brings me closer to feeling more confident as a web developer.
+- **Clean Structure**: The page is built using semantic HTML5 and well-organized CSS for readability and maintainability.
+- **Custom Design**: All the styling was done with plain CSS, no frameworks involved, allowing me to practice core styling techniques.
 
-## What I'm Learning
+## What I Learned
 
-- How to structure the page with semantic HTML
-- Styling the layout using Flexbox and Grid
-- Ensuring the page is responsive and adapts well to different screen sizes
-- Managing the project with Git for version control
+Throughout this project, I reinforced my understanding of:
+- Semantic HTML structure
+- Layouts using flex
+- Responsive design techniques
+- Basic version control with Git
 
-## What's Next
+## Live Demo
 
-As I continue to build, I'll be focusing on refining the design and ensuring everything works smoothly.
-Thanks for following along, and feel free to check out the progress on my GitHub!
+Feel free to check out the live demo and explore the code!
+
+Built with 💻 and ☕ by Chester.
