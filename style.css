@@ -76,13 +76,14 @@ text-align: center;
 
 .cards {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
 }
 
 .info img { 
-height: 200px;
+height: 250px;
+border-radius: 125px;
+border: solid #1f2937 2px;
 }
 
 
@@ -95,6 +96,7 @@ height: 200px;
 .info-text {
     padding: 20px 0;
     text-align: center;
+    font-size: 18px;
 }
 
 a {
