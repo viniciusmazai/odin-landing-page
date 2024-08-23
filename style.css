@@ -157,6 +157,13 @@ border: solid #1f2937 2px;
     font-size: 18px;
 }
 
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 25px 250px;
+}
+
 a {
     text-decoration: none;
     color: #F9FAF8;
