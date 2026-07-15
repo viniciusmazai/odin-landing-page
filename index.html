@@ -3,64 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Chester's responsive landing page, built while learning HTML and CSS with The Odin Project."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap"
+        rel="stylesheet"
+    >
     <link rel="stylesheet" href="style.css">
-    <title>Chesterio</title>
+
+    <title>Chesterio | Learning HTML &amp; CSS</title>
 </head>
+
 <body>
-    <div class="header">
-         <div class="logo">CHESTERio</div>
-            <ul class="header-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Who is Chester</a></li>
-                <li><a href="#">Contact Me</a></li>
-            </ul>
-    </div>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#home" aria-label="Chesterio home">
+                CHESTER<span>io</span>
+            </a>
 
-    <div class="main">
-        <div class="description>">
-            <div class="description-title">Chester is learning HTML and CSS</div>
-            <div class="description-text">Now things just got real—Chester's seriously decided to change careers, and he's fully committed to the Odin Project course. To support him, click the button below. Just Kidding, it's a mock website, ok?</div>
-            <button class="donate-button">Donate</button>
+            <nav aria-label="Primary navigation">
+                <ul class="header-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Who is Chester?</a></li>
+                    <li><a href="#contact">Support the journey</a></li>
+                </ul>
+            </nav>
         </div>
-        <img src="./images/main-picture.jpg" alt="a picture of me doing shit">
-    </div>
-    <div class="info">
-        <div class="info-title">Why should Chester get hired in the future?</div>
-            <div class="cards">
-                <div class="info-card">
-                    <img src="./images/card-1.jpg" alt="a picture of me doing shit">
-                    <div class="info-text">Well, if you're into the idea of someone actually showing up and doing their job, he's your guy.</div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <p class="eyebrow">A career change in progress</p>
+
+                    <h1>Chester is learning HTML and CSS</h1>
+
+                    <p>
+                        Things just got real: Chester decided to change careers
+                        and committed to The Odin Project. This landing page is
+                        one of the first steps in that journey.
+                    </p>
+
+                    <a class="button button-primary" href="#about">
+                        See the progress
+                    </a>
                 </div>
 
-                <div class="info-card">
-                    <img src="./images/card-2.jpg" alt="a picture of me doing shit">
-                    <div class="info-text">Chester's got a knack for making even the most mundane tasks look like rocket science. Just imagine the fun!</div>
-                </div>
-
-                <div class="info-card">
-                    <img src="./images/card-3.jpg" alt="a picture of me doing shit">
-                    <div class="info-text">He's got a talent for turning every challenge into an epic saga. If you like drama with your deadlines, Chester's your man.</div>
-                </div>
-
-                <div class="info-card">
-                    <img src="./images/card-4.jpeg" alt="a picture of me doing shit">
-                    <div class="info-text">Chester's like that one app you didn't know you needed—full of surprises, constantly updating, and occasionally freezing, but always worth it in the end.</div>
+                <div class="hero-image-wrapper">
+                    <img
+                        src="./images/main-picture.jpg"
+                        alt="Chester smiling outdoors"
+                    >
                 </div>
             </div>
-    </div>
-    <div class="testimonial">
-        <div class="testimonial-text">Honestly, I never thought I'd say this, but Chester's really doing a great job learning and growing. It's almost like he s turning into a responsible adult or something. Who knew that all those hours of studying would actually pay off? I guess miracles do happen. So, if you’re thinking about supporting him, just remember: you're helping to make a very ambitious project (and my home life) a little bit less chaotic. Thanks in advance!</div>
-        <div class="testimonial-signature">- Renata Folletto (almost wife and mother to Chester's daughter)</div>
-    </div>
-    <div class="donate">
-        <div class="donate-container">
-            <div class="donate-title">Why You Should Totally Donate to Chester</div>
-            <div class="donate-text">So, you're debating whether to spare a few bucks for Chester, who's out there learning the ropes? Well, why not? Imagine the sheer delight of watching him turn those donations into epic career milestones. It's like investing in a really cool startup—except Chester's the startup, and he's got all the potential in the world. Donate now and join the adventure!</div>
-            <button class="donate-button-alt">Do it, now!</button>
+        </section>
+
+        <section class="info section" id="about">
+            <div class="container">
+                <p class="eyebrow eyebrow-dark">Why Chester?</p>
+
+                <h2>Reasons to keep an eye on his journey</h2>
+
+                <div class="cards">
+                    <article class="info-card">
+                        <img
+                            src="./images/card-1.jpg"
+                            alt=""
+                            loading="lazy"
+                        >
+
+                        <h3>Reliable</h3>
+
+                        <p>
+                            If you appreciate someone who shows up and gets the
+                            job done, he is your guy.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <img
+                            src="./images/card-2.jpg"
+                            alt=""
+                            loading="lazy"
+                        >
+
+                        <h3>Curious</h3>
+
+                        <p>
+                            He enjoys understanding how things work and finding
+                            a clearer way to build them.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <img
+                            src="./images/card-3.jpg"
+                            alt=""
+                            loading="lazy"
+                        >
+
+                        <h3>Persistent</h3>
+
+                        <p>
+                            Every challenge becomes another chapter—and he
+                            sticks around to finish the story.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <img
+                            src="./images/card-4.jpeg"
+                            alt=""
+                            loading="lazy"
+                        >
+
+                        <h3>Always improving</h3>
+
+                        <p>
+                            Like a good app, he keeps learning, updating and
+                            returning better than before.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial section" aria-label="Testimonial">
+            <div class="container quote-container">
+                <blockquote>
+                    <p>
+                        “Honestly, I never thought I'd say this, but Chester is
+                        doing a great job learning and growing. All those hours
+                        of studying are paying off—and making our home life a
+                        little less chaotic.”
+                    </p>
+
+                    <footer>
+                        Renata Folletto, partner and mother of Chester's daughter
+                    </footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="container callout">
+                <div>
+                    <p class="eyebrow">The next chapter starts here</p>
+
+                    <h2>Support Chester's learning journey</h2>
+
+                    <p>
+                        Follow the work, explore the projects and watch each new
+                        skill turn into something real.
+                    </p>
+                </div>
+
+                <a
+                    class="button button-secondary"
+                    href="https://github.com/viniciusmazai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Visit GitHub
+                    <span class="sr-only"> (opens in a new tab)</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                Built by Chester while learning with The Odin Project.
+            </p>
         </div>
-    </div>
-    <div class="footer">
-        <div class="footer-text">© 2024 Chester's Amazing Startup. All rights reserved.</div>
-    </div>
+    </footer>
 </body>
 </html>
